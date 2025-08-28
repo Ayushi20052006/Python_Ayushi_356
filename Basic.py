@@ -35,3 +35,23 @@
 # print(type(var3))
 # print(id(var4))
 # print(type(var4))
+
+#STRINGS(Multiline and single line string)(Strings are also trated as array ie. they allso have indexing)
+# multiline---- 
+# a = """
+# hello 
+# how
+# are
+# you
+# """
+#Singleline string
+#a="Hello how are you"
+
+#COUNTING NO OF ELEMENTS IN STRING --> len()
+
+# text="Hello how are you. Great to see you "
+# if "are" in text:
+#     print("Yes")
+# else:
+#     print ("No")
+    
