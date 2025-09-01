@@ -55,6 +55,8 @@
 # else:
 #     print ("No")
     
+    
+#STRING SLICING
 # a="Hello my name is Ayushi"
 # print(a[2:15])
 # print(a[0:5])
