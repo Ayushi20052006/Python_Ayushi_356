@@ -55,3 +55,5 @@
 # else:
 #     print ("No")
     
+a="Hello my name is Ayushi"
+print(a[2:15])
