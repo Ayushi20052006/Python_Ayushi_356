@@ -159,3 +159,21 @@ for i in range(5):
 
 for i in range(1,10,2):
     print(i)   #13579
+
+#INPUT
+# n=int(input(""))
+# print(n)  
+# print(type(n))
+
+a=5
+b=10
+# if a>b:
+#     print(a," is greater than ", b)
+# elif a==b:
+#     print("both are equal")
+# else :
+#     print(b," is greater than ",a)
+    
+#SHORTHAND
+print(f"{a} is greater than {b}") if a>b else print(f"{b} is greater than {a}")
+print(f"{a} is greater than {b}" if a > b else "=" if a == b else f"{b} is greater than {a}")
