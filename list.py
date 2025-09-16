@@ -45,3 +45,4 @@ print(list2)
 #DELETING AN ELEMENT FROM A PARTICULAR INDEX
 list2.pop(3)
 print(list2)
+
