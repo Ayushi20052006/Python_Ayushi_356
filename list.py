@@ -75,7 +75,7 @@
 
 
 #TO COPY AND PRINT ELEMENTS IN CAPITAL AND IN UPPER CASE
-list=["apple","mango","cherry","kiwi"]
+list=["apple","mango","cherry","kiwi","Papaya"]
 fruits=[x.upper() for x in list]
 print(fruits)
 fruits=[x.capitalize() for x in list]
