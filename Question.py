@@ -72,3 +72,16 @@ for i in range(len(s) // 2):
 
 s = "".join(s)
 print("Reversed string:", s)
+
+#PREVIOUS YEAR QUESTIONS 
+def lessthan(lst, k):
+    return [num for num in lst if num < k]
+print(lessthan([1, 5, -8, 12, 4, 7], 6))
+
+
+def makepairs(lst1, lst2):
+    final=[]
+    for i in range (len(lst1)):
+        final=final+[(lst1[i],lst2[i])]
+    return final
+print(makepairs([1,2,3],[4,5,6]))
