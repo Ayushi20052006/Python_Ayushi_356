@@ -88,3 +88,15 @@ print(list)
 #SORTING OF LIST
 list.sort()
 print(list)
+
+#LIST COMPREHENSION
+squares=[x**2 for x in range(10)]
+print(squares)
+
+numbers=[1,2,3,4,5,6,7,8,9]
+even=[x for x in numbers if x%2==0]
+print(even)
+
+chars=["a","b","c","d","e"]
+upper=[x.upper() for x in chars]
+print(upper)
